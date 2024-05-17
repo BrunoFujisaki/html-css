@@ -3,4 +3,4 @@
 
  Estou aprendendo a mexer com repositórios
 
-<a href="https://brunofujisaki.github.io/html-css/desafios/d010b/android.html">Acesse</a>
+<a href="https://brunofujisaki.github.io/html-css/desafios/d010/index.html">Acesse</a>
