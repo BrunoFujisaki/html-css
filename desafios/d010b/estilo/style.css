@@ -46,7 +46,7 @@ header h1{
 
 header p{
     font-family: var(--fontpadrao);
-    width: 400px;
+    width: 500px;
     margin: auto;
     padding-top: 20px;
     padding-left: 10px;
@@ -64,14 +64,14 @@ nav a{
     text-decoration: none;
     color: var(--cor1);
     font-weight: bold;
-    padding-right: 10px;
+    padding: 20px;
     transition-duration: .5s;
+    border-radius: 5px;
 }
 
 nav a:hover{
     background-color: var(--cor2);
-    padding: 10px;
-    border-radius: 5px;
+    padding: 10px;  
     color: var(--cor3);
 }
 
