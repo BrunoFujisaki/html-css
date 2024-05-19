@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>desafio011</title>
+    <title>Document</title>
     <style>
         body{
-            height: 98vh;
-            background-image: url('imagens/espaco.jpg');
-            background-position: center center;
+            background: black url('imagens/espaco.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
-        /*????????*/
+
         img{
             width: 350px;
-            display: block;
-            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-    <img src="imagens/astronauta.png" alt="">
+    <div id="astronauta">
+        <img src="imagens/astronauta.png" alt="astronauta">
+    </div>
 </body>
 </html>
