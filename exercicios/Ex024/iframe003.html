@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        iframe{
+            border: solid 2px black;
+            width: 95vw;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Navegação pelos iframes</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad iure iste doloribus provident hic nemo mollitia consequuntur magni. Molestias possimus, soluta at aliquid culpa saepe quisquam voluptatum aut ex laudantium?</p>
+
+    <ul>
+        <li> <a href="paginas/pag001.html" target="frame">pagina1</a></li>
+        <li><a href="paginas/pag002.html" target="frame">pagina2</a></li>
+        <li><a href="paginas/pag003.html" target="frame">pagina3</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quod vitae voluptate accusamus corporis corrupti nisi itaque fugiat delectus, adipisci minima impedit commodi iure molestias iusto illum fuga et si</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1>" frameborder="0" name="frame"></iframe>
+</body>
+</html>
